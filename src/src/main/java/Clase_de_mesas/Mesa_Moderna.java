@@ -5,7 +5,7 @@ import Interface.Imesa;
 public class Mesa_Moderna implements Imesa {
 
 	public void patas() {
-		System.out.println("La mesa moderna es con patas metalicas");
+		System.out.println("La mesa redonda es con patas metalicas");
 		
 	}
 	public void Grande() {

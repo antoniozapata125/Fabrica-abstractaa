@@ -20,7 +20,7 @@ public class Fabrica_de_muebles_modernos extends Fabrica_abstracta {
 
 	@Override
 	public Isofa getIsofa(String tipo_de_sofas) {
-		if (tipo_de_sofas.equalsIgnoreCase("Sofa")) {
+		if (tipo_de_sofas.equalsIgnoreCase("Sofa ")) {
 			return new Sofa_moderno();
 		}
 		return null;
@@ -28,7 +28,7 @@ public class Fabrica_de_muebles_modernos extends Fabrica_abstracta {
 
 	@Override
 	public Imesa getImesa(String tipo_de_mesa) {
-		if (tipo_de_mesa.equalsIgnoreCase("Mesa")) {
+		if (tipo_de_mesa.equalsIgnoreCase("Mesa ")) {
 			return new Mesa_Moderna();
 		}
 		return null;
